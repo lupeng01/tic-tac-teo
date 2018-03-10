@@ -12,6 +12,9 @@ ol, ul {
   content: "";
   display: table;
 }
+.board-row button.active {
+  color: red;
+}
 
 .status {
   margin-bottom: 10px;
@@ -47,4 +50,11 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+.game-info ol li.active{
+  font-weight: bold;
+  color: red;
+}
+.game-info ol li.active button{
+  color: red;
 }
